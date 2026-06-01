@@ -40,30 +40,74 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify the drivers of voluntary turnover among employees in entry- and lower-level positions across the company. The results will be used by the Human Resources Department to help implement workplace changes would most improve employee satisfaction and intention to stay.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: All current employees of the company who hold entry- or lower-level positions, across all departments. "Entry- and lower-level" is defined as non-management roles. Managers and senior staff are excluded.
+Sampling frame: The company's internal employee directory, which is a complete, up-to-date list of every current employee, with their department and job grade.
+Sampling units: Individual employees.
+Observational units: Individual employees.
+Overall sampling strategy: Stratified random sampling. The population is divided into non-overlapping strata which are defined by department (and within each department, also defined by job grade if strata are large enough). Then, an independent simple random sample is drawn from each stratum. Finally, the results are pooled for overall estimates.
+Justification:  HR's goal is to compare satisfaction and turnover drivers BETWEEN departments so interventions can be targeted. Stratified sampling is exactly the right tool for this: it produces estimates with known precision for each subpopulation (stratum).
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you worked at Tech Gnomad?
+( )Less than 6 months
+( )6 months to 1 year
+( )1-2 years
+( )2-4 years
+( )4+ years
+
+2. Which department do you currently work in?
+( )Marketing Department
+( )Customer Support Department
+( )Accounting Department
+( )Product Management Department
+
+3. Overall, how satisfied are you with your job?
+( )Very dissatisfied
+( )Dissatisfied
+( )Neither Satisfied nor dissatisfied
+( )Satisfied
+( )Very satisfied
+
+4. How likely is it that you'll be working at Tech Gnomad 12 months from now?
+( ) Very unlikely
+( ) Unlikely
+( ) Unsure
+( ) Likely
+( ) Very likely
+
+5. Please rate how satisfied you are with each of the following aspects of your job. (1 = Very dissatisfied, 5 = Very satisfied)
+                                          1   2   3   4   5
+   a. your compensation                  ( ) ( ) ( ) ( ) ( )
+   b. your workload                      ( ) ( ) ( ) ( ) ( )
+   c. the support you get from your manager ( ) ( ) ( ) ( ) ( )
+   d. opportunities for advancement ( ) ( ) ( ) ( ) ( )
+   e. the recognition you receive ( ) ( ) ( ) ( ) ( )
+
+6. Which of the following, if any, would most improve your job satisfaction?
+   Please select up to TWO.
+( ) higher pay
+( ) a more manageable workload
+( ) better opportunities for career advancement
+( ) more supportive management
+( ) more flexibility in schedule
+( ) more recognition for my work
+( ) other (please specify)
+
+7. If you have considered leaving Tech Gnomad, what is the main reason? Please leave blank if this doesn't apply to you.
+
+8. What is one change that we at Tech Gnomad could make that would most improve your experience as an employee?
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +115,23 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: sample survey with a cross-sectional design. Stratified and multi-stage probability sample. Within each stratum, a simple random sample without replacement of records (telephone numbers) was selected. Then one eligible person per selected household was chosen using the 'age-order' selection method.
+2. Sample size: 16,149 respondents
+3. Target population: All persons aged 15 years or older living in Canada. This is excluding (1) residents of the three territories (Yukon, Northwest Territories, Nunavut), and (2) full-time residents of institutions.
+4. Sampling frame: A combination of two different components. (1) Lists of telephone numbers in use (both landline and cellular) available to Statistics Canada from various sources (Telephone companies, Census of population, etc.) and (2) The Address Register (AR): List of all dwellings within the ten provinces. About 86% of telephone numbers were linked to the AR, and the remaining 14% (unlinked) were also kept on the frame to maintain coverage of households with a telephone.
+5. Survey mode(s): Online questionnaire or telephone-interviewing. 
+6. Timeline: Collection period: September 4 to December 28, 2018. Reference period: the 12 months preceding the interview date.  Frequency: every 5 years.
+7. Response rate: 41.9%
+8. Weights: The number of persons represented by a given person in the sample. Initial household weight = inverse of the probability of selection. Person weight = household weight x Factor 1 x number of eligible (15+) household members.
+9. Data processing: data capture: responses entered directly into the EQ system by respondents. output was encrypted and sent to Ottawa. editing: duplicates were removed. out of scope records were dropped
+10. Cleaning, imputation, etc: Three non-response types are defined: complete (records dropped and accounted for through weighting), item (handled via "Not stated" code or imputed), and partial. Imputation used DONOR imputation via a score function: characteristics of each recipient (incomplete) record were compared with all donor records, and the highest-scoring "nearest" donor supplied the missing value (ties broken randomly), constructed so imputed records still pass the edits; where donor imputation was not possible, mean imputation among a donor pool was used
+11. Sources of error:     
+- Coverage error: households without telephone service, or with service not covered by the frame, were excluded from the surveyed population.
+- Measurement (response) error: respondent misunderstanding, recall error, refusal
+- Processing error: errors introduced during capture, coding, or editing.
+12. Limitations, known biases, etc: Participation was voluntary. Also, there is non-comparability over time: the 2018 move to electronic-questionnaire collection (plus  content revisions) means StatCan states it is NOT appropriate to compare 2018 GSS GVP results with previous iterations.
+13. Link to documentation and any additional sources used:
+Statistics Canada, 2023, "General Social Survey, Cycle 33, 2018 [Canada]: Giving, Volunteering and Participating", https://doi.org/10.5683/SP3/U1AYY0, Borealis
 ```
 
 ## Rubric
